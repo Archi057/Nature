@@ -1,0 +1,153 @@
+* {
+    font-family: 'Outfit', sans-serif;  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#first-block {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e111/c256/74004cae21a2593f232ae20d4c886f58?Expires=1651449600&Signature=gAPZI3FhJ57~0I7PD4o2jCGAGELOKWBJ3dJnq6KqbZaIYRlnfjPLwzxYa-HSStrvWjKzvnh~jl79pkq1oeY2XEW2BIQkkhki7pP-grrJ~vS7uuYnm8sbY01So-96e5BrFQqjugpfrsbuDqmZ4saJiAt2rMjBrHbI~GCzunBXGNkUlZXpypZe2ydKtIQzVMjWMXtJYLQttTBJKixbqzPnK2MWcjL08ErVVbWN6oP-0rxiDUJSs1BkQ~Md-6r8Fh~acdANXF3XCJFbbPhGYS1WWnRWP8m5265AEPmtg~4SeJld2oQ30mSfFlP6Roj3jt29gyQLgkXhiYx~Ia2jEkUvVw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+#logo {
+    /* background-color: red; */
+    height: 100px;
+    text-align: center;
+    
+
+}
+
+#logo h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+#nav {
+    /* background-color: blue; */
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+
+}
+
+#nav a{
+    /* background-color: blue; */
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#login {
+    /* background-color: green; */
+    height: 100px;
+}
+
+.btn-login {
+    /* width: 96px;
+    height: 47px; */
+    background-color: white;
+    color: #1D54A4;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn-login h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#soc-ico {
+    margin: 0 auto;
+    width: 356px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+#text-block-1 {
+    text-align: center;
+    color: white;
+}
+
+#text-block-1 h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#text-block-1 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#search-block{
+    margin-left: 139px;
+    margin-top: -180px;
+}
+
+#search-header {
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+}
+
+#search-body {
+    width: 1600px;
+    height: 200px;
+    background-color: white;
+}
+
+.header-el{
+ width: 147px;
+ height: 48px;
+ background-color: white;
+ margin-right: 15px;
+ display: flex;
+ justify-content: space-around;
+ color: #1D54A4;
+ border-radius: 10px;
+}
+
+body {
+    background-color: grey;
+}
+
+.header-el h6 {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+.header-el img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.header-active {
+    background-color: #1D54A4;
+    color: white;
+    width: 147px;
+    height: 48px;
+}
